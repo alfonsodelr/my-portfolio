@@ -1,0 +1,24 @@
+/* styles/HomePage.module.css */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 64px 2rem 2rem;
+  background-color: #282c34;
+}
+
+.appBar {
+  background-color: #282c34 !important;
+  color: white !important;
+}
+
+.toolbar {
+  justify-content: space-between !important;
+}
+
+.content {
+  text-align: center;
+  color: white;
+}

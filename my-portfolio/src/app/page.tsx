@@ -1,18 +1,9 @@
-export default function Home() {
-  return (
-    <div style={styles.container}>
-      <h1>Alfonso Luis Del Rosario</h1>
-    </div>
-  );
-}
+// src/app/page.tsx
+import React from "react";
+import HomePage from "@/views/pages/HomePage";
 
-const styles = {
-  container: {
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    height: '100vh',
-    margin: 0,
-    padding: 0,
-  }
+const Home: React.FC = () => {
+  return <HomePage />;
 };
+
+export default Home;
